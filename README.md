@@ -5,9 +5,9 @@ This archive contains the essential files to reproduce the results presented in 
 
 Contents
 --------
-- original_with_physics_juntao.py
+- original_with_physics.py
   → Main script implementing the hybrid PINNs model using NVIDIA Modulus.
-- morpho_equation_juntao.py
+- morpho_equation.py
   → Supporting script containing the sediment transport equation and associated physics constraints.
 - original_simplified.csv
   → Input dataset used to train and evaluate the hybrid PINNs model.
@@ -32,10 +32,10 @@ Quick Start Instructions
 
 3. Run the model
    Inside the container:
-   python original_with_physics_juntao.py
+   python original_with_physics.py
 
 4. Edit and experiment
-   You can modify morpho_equation_juntao.py to test different PDE formulations or boundary conditions.
+   You can modify morpho_equation.py to test different PDE formulations or boundary conditions.
 
 Contact
 -------
